@@ -1,4 +1,4 @@
-# PropertyKeyValueList
+#JOS.PropertyKeyValueList
 ###Custom EPiServer key value list property with support for predefined keys.
 
 Install it by simply running ```Install-Package JOS.PropertyKeyValueList``` in the Package manager console.
