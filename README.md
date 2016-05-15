@@ -47,7 +47,7 @@ public class ReadOnlyKeysProvider : IReadOnlyKeysProvider
 ```
 
 When specifying a ```IReadOnlyKeysProvider``` the property will render in ReadOnlyKeysMode and look like this:
-![Property rendered in readOnlyKeysMode](/content/images/2016/05/readOnlyKeysMode--1-.PNG)
+![Property rendered in readOnlyKeysMode](https://josefottosson.se/content/images/2016/05/readOnlyKeysMode--1-.PNG)
 The editor will only be able to edit the "value" portion of the property, not the predefined keys. It's not possible to add new items in this mode.
 
 ####Normal
@@ -58,6 +58,6 @@ Add the property like this to try it out.
 public virtual IEnumerable<KeyValueItem> NotReadOnly { get; set; }
 ```
 The property will look like this in edit mode:
-![](/content/images/2016/05/normalMode.gif)
+![Property rendered in normal mode](https://josefottosson.se/content/images/2016/05/normalMode.gif)
 Currently it's possible to add as many items as you like but Im thinking of adding an optional MaxLimit.
 ```
