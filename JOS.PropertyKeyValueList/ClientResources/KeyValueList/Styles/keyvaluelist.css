@@ -1,0 +1,32 @@
+﻿.kvl-container {
+	max-height: 258px;
+	overflow-y: auto;
+	min-width: 500px;
+}
+.keyValueItemContainer
+{
+	margin-bottom: 5px;
+}
+
+.valueTextbox {
+	margin-left: 25px !important;
+	margin-right: 5px !important;
+}
+
+.kvl-icon {
+	width: 30px;
+	cursor: pointer;
+}
+
+.kvl-disabled {
+    opacity: 0.5
+}
+
+.kvl-disabled .dijitInputContainer {
+	background-color: #d9d9d9 !important;
+	cursor: not-allowed;
+}
+
+.kvl-disabled input {
+	cursor: not-allowed;
+}
