@@ -60,4 +60,3 @@ public virtual IEnumerable<KeyValueItem> NotReadOnly { get; set; }
 The property will look like this in edit mode:
 ![Property rendered in normal mode](https://josefottosson.se/content/images/2016/05/normalMode.gif)
 Currently it's possible to add as many items as you like but Im thinking of adding an optional MaxLimit.
-```
