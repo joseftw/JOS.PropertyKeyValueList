@@ -1,2 +1,2 @@
 *.cs linguist-language=csharp
-ClientResources/* linguist-vendored
+JOS.PropertyKeyValueList/ClientResources/* linguist-vendored
