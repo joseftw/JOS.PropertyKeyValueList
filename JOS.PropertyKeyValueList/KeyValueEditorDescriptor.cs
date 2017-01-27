@@ -11,7 +11,7 @@ namespace JOS.PropertyKeyValueList
 		{
 		public KeyValueEditorDescriptor() 
 		{
-			ClientEditingClass = "keyvaluelist.scripts.KeyValueList";
+			ClientEditingClass = "keyvaluelist/scripts/KeyValueList";
 		}
 
 		protected override void SetEditorConfiguration(ExtendedMetadata metadata) 
