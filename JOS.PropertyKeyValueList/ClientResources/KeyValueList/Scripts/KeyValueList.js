@@ -223,6 +223,11 @@
 			},
 			//This gets called on startup by EPI if value != null.
 			_setValueAttr: function (value) {
+				// EPi does send null values, so return if it is...
+				if (value === null) {
+					return;
+				}
+				
 				this._setValue(value);
 				if (this.readOnlyKeysMode) {
 					this._placeValues();
