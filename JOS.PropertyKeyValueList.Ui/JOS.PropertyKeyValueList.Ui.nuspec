@@ -3,11 +3,14 @@
 	<metadata>
 		<id>$id$</id>
 		<version>$version$</version>
-		<title>JOS.PropertyKeyValueList</title>
+		<title>JOS.PropertyKeyValueList.Ui</title>
 		<authors>$author$</authors>
 		<owners>$author$</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>$description$</description>
-		<releaseNotes>Moved ClientResources to package JOS.PropertyKeyValueList.Ui</releaseNotes>
+		<releaseNotes>Adds a Ui project to separeate the Epi property code from the ClientResources folder.</releaseNotes>
 	</metadata>
+  <files>
+    <file src="module.config.transform" target="content" />
+  </files>
 </package>

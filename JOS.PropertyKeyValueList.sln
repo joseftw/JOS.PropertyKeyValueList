@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.PropertyKeyValueList", "JOS.PropertyKeyValueList.csproj", "{1205D131-BF12-48CD-AE8C-1D1E680596D8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.PropertyKeyValueList", "JOS.PropertyKeyValueList\JOS.PropertyKeyValueList.csproj", "{1205D131-BF12-48CD-AE8C-1D1E680596D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.PropertyKeyValueList.Ui", "..\JOS.PropertyKeyValueList.Ui\JOS.PropertyKeyValueList.Ui.csproj", "{CB3F2290-96B4-4DAD-A9FD-89AC7FFEE290}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JOS.PropertyKeyValueList.Ui", "JOS.PropertyKeyValueList.Ui\JOS.PropertyKeyValueList.Ui.csproj", "{CB3F2290-96B4-4DAD-A9FD-89AC7FFEE290}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

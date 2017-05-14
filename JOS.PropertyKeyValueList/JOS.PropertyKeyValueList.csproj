@@ -157,15 +157,7 @@
     <Compile Include="ReadOnlyKeysProvider.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ClientResources\KeyValueList\Images\add.svg" />
-    <Content Include="ClientResources\KeyValueList\Images\remove.svg" />
-    <Content Include="ClientResources\KeyValueList\Scripts\KeyValueList.js" />
-    <Content Include="ClientResources\KeyValueList\Styles\keyvaluelist.css" />
-    <Content Include="ClientResources\KeyValueList\Templates\KeyValueList.html" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="JOS.PropertyKeyValueList.nuspec" />
-    <None Include="module.config.transform" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

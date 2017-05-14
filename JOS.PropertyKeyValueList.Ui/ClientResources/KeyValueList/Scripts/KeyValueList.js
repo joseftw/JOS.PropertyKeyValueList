@@ -65,20 +65,10 @@
 			constructor: function () {
 				this._keyValueItems = [];
 			},
-			destroy: function () {
-				var _a;
-				while (_a = this._keyValueItems.pop()) {
-					_a.div.destroyRecursive();
-				}
-				this.inherited(arguments);
-			},
 			onChange: function (value) {
 				if (this.parent) {
 					this.parent.save(value);
 				}
-			},
-			postCreate: function () {
-				this.inherited(arguments);
 			},
 			_calculateValue: function () {
 				var propertyValue = [];
@@ -99,9 +89,7 @@
 					propertyValue.push(keyValueItem);
 				});
 
-				if (propertyValue.length > 0) {
-					this._setValue(propertyValue);
-				}
+				this._setValue(propertyValue);
 			},
 			_createReadOnlyTextBox: function (readOnlyItem) {
 				var readOnlyInput = new Textbox({
@@ -109,8 +97,8 @@
 					tabIndex: -1
 				});
 
-				readOnlyInput.setAttribute("class", "kvl-input");
-				readOnlyInput.setAttribute("disabled", "disabled");
+				readOnlyInput.set("class", "kvl-input");
+				readOnlyInput.set("disabled", "disabled");
 
 				return readOnlyInput;
 			},
@@ -121,12 +109,12 @@
 					this._calculateValue();
 				}));
 
-				valueInput.setAttribute("class", "valueTextbox");
-				valueInput.setAttribute("class", "kvl-input");
+				valueInput.set("class", "valueTextbox");
+				valueInput.set("class", "kvl-input");
 
 				if (required) {
-					valueInput.setAttribute("required", "required");
-					valueInput.setAttribute("invalidMessage", "This field is required");
+					valueInput.set("required", "required");
+					valueInput.set("invalidMessage", "This field is required");
 				}
 
 				return valueInput;
@@ -221,7 +209,6 @@
 					this.onChange(this.value);
 				}
 			},
-			//This gets called on startup by EPI if value != null.
 			_setValueAttr: function (value) {
 				this._setValue(value);
 				if (this.readOnlyKeysMode) {
