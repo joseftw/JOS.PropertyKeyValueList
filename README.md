@@ -1,5 +1,5 @@
-#JOS.PropertyKeyValueList
-###Custom EPiServer key value list property with support for predefined keys.
+# JOS.PropertyKeyValueList
+### Custom EPiServer key value list property with support for predefined keys.
 
 Install it by simply running ```Install-Package JOS.PropertyKeyValueList``` in the Package manager console.
 
@@ -9,7 +9,7 @@ Inspired by [this blogpost by Peter Löfman](http://epideveloper.blogspot.se/201
 
 The property has two "modes", ```ReadOnlyKeys``` or ```Normal```.
 
-####ReadOnlyKeys
+#### ReadOnlyKeys
 Add the property like this to try it out.
 ```csharp
 [BackingType(typeof(PropertyKeyValueList))]
@@ -52,7 +52,7 @@ When specifying a ```IReadOnlyKeysProvider``` the property will render in ReadOn
 ![Property rendered in readOnlyKeysMode](https://josefottosson.se/content/images/2016/05/readOnlyKeysMode--1-.PNG)
 The editor will only be able to edit the "value" portion of the property, not the predefined keys. It's not possible to add new items in this mode.
 
-####Normal
+#### Normal
 Add the property like this to try it out.
 ```csharp
 [BackingType(typeof(PropertyKeyValueList))]
