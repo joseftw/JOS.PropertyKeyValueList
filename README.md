@@ -1,9 +1,7 @@
 # JOS.PropertyKeyValueList
 ### Custom EPiServer key value list property with support for predefined keys.
 
-Install it by simply running ```Install-Package JOS.PropertyKeyValueList``` in the Package manager console.
-
-Tested in alloy project with **EPiServer.CMS 9.7** and **EPiServer.CMS.UI 9.4.3**. 
+Install it by simply running ```Install-Package JOS.PropertyKeyValueList.Ui``` in the Package manager console.
 
 Inspired by [this blogpost by Peter Löfman](http://epideveloper.blogspot.se/2013/10/episerver-7-custom-property-combined.html) where he had done something quite similar to what I wanted to achieve so I used his blog post to get started.
 
