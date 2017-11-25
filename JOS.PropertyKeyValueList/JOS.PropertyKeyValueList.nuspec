@@ -1,13 +1,14 @@
-﻿<?xml version="1.0"?>
-<package>
-	<metadata>
-		<id>$id$</id>
-		<version>$version$</version>
-		<title>JOS.PropertyKeyValueList</title>
-		<authors>$author$</authors>
-		<owners>$author$</owners>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
-		<description>$description$</description>
-		<releaseNotes>Moved ClientResources to package JOS.PropertyKeyValueList.Ui</releaseNotes>
-	</metadata>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>JOS.PropertyKeyValueList</id>
+        <version>3.0.0</version>
+        <authors>Josef Ottosson</authors>
+        <description>$description$</description>
+        <language>en-US</language>
+        <projectUrl>https://github.com/joseftw/JOS.PropertyKeyValueList</projectUrl>
+        <releaseNotes>
+            Now supports Episerver 11.
+        </releaseNotes>
+    </metadata>
 </package>

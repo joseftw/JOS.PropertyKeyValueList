@@ -8,7 +8,7 @@
 		<owners>$author$</owners>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<description>$description$</description>
-		<releaseNotes>Adds a Ui project to separeate the Epi property code from the ClientResources folder.</releaseNotes>
+		<releaseNotes>Now supports Episerver 11.</releaseNotes>
 	</metadata>
   <files>
     <file src="module.config.transform" target="content" />
